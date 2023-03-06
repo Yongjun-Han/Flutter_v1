@@ -7,7 +7,7 @@ class Player {
 
 void main() {
   var nico = Player(name: 'nico',);
-  runApp(App());
+  runApp(const App());
 }
 
 class App extends StatelessWidget{
