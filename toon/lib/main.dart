@@ -20,6 +20,7 @@ class App extends StatelessWidget{
         body: Padding(
           padding: EdgeInsets.symmetric(horizontal: 20),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(
                 height: 80,
@@ -43,6 +44,43 @@ class App extends StatelessWidget{
                           fontSize: 14,
                         ),),
                     ],
+                  )
+                ],
+              ),
+              SizedBox(
+                height: 120,
+              ),
+              Text('Total Blance',
+                style: TextStyle(
+                  color: Colors.white.withOpacity(.8),
+                  fontSize: 18,
+                ),
+              ),
+              SizedBox(height: 10,),
+              Text('\$5 193 234',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 36,
+                  fontWeight: FontWeight.w700
+                ),
+              ),
+              SizedBox(height: 24,),
+              Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.teal,
+                      borderRadius: BorderRadius.circular(30),
+                    ),
+                    child: Padding(
+                      padding: EdgeInsets.symmetric(vertical: 16, horizontal: 50),
+                      child: Text('transfer',
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w500
+                        ),
+                      ),
+                    ),
                   )
                 ],
               )
