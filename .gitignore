@@ -185,7 +185,6 @@ stateful/statefull/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
 stateful/statefull/ios/Runner.xcworkspace/contents.xcworkspacedata
 stateful/statefull/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
 stateful/statefull/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
-stateful/statefull/lib/main.dart
 stateful/statefull/linux/.gitignore
 stateful/statefull/linux/CMakeLists.txt
 stateful/statefull/linux/main.cc
